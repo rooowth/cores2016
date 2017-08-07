@@ -1,0 +1,440 @@
+/* ***** MEDIA QUERIES *****/
+
+/* Landscape phones and smaller */
+@media only screen and (max-width: 480px) and (min-width: 180px){
+	/* HOME */
+	#home-header > .navbar > .navbar-inner > .nav > li,
+	#home-header > .navbar > .navbar-inner > .nav > a {
+		font-size: 90%;
+		margin: 0 -15px 0 0;
+	}
+	#home-header .home-header-contents {
+		padding-top: 10vh;
+	}
+	#home-header .home-header-contents img {
+		max-width: 250px;
+	}
+	#home-header .row .home-header-contents h1 {
+		font-size: 200%;
+	}
+	#home-header .register-now {
+		margin-top: -525px;	
+	}
+	#home-header .row .register-now h3{
+		font-size: 150%;
+		margin-top: -20px;
+	}
+	#home-header .row .register-now a {
+		font-size: 150%;
+	}
+	#home-header .row .arrow {
+		padding-top: 40vh;
+	}
+	#home-header .row .arrow img {
+		max-width: 40px;
+	}
+
+	/* TOPICS */
+	body > #topics {
+		height: 300vh;
+		background-image: linear-gradient(76deg, #013A6B 50%, #004E95 50%);
+	}
+	.topics-list {
+		position: relative;
+		margin-left: -25px;
+	}
+	#topics .topics-list img {
+		width: 150px;
+	}
+	#topics .topics-list > .overlay {
+		width: 150px;
+		height: 0;
+		margin-left: 50px;
+	}
+	#topics .topics-list:hover > .overlay {
+		height: 150px;
+	}
+	#topics .topics-list > .topics-desc p {
+		font-size: 110%;
+		width: 150px;
+		left: 20%;
+		top: 15%;
+	}
+	.topics-list:hover > .topics-desc p {
+		height: 150px;
+	}
+	
+	/* OBJECTIVES*/
+	body > #objectives {
+		height: 100vh;
+		background-image: linear-gradient(127deg, #6b0101 50%, #950000 50%);
+	}
+	#objectives .objectives-contents h3 {
+		font-size: 175%;
+	}
+
+	/* ANNOUNCEMENTS*/
+	body > #announcements {
+		height: 275vh;
+		background-image: linear-gradient(74.5deg, #156b01 50%, #0d9500 50%);
+	}
+	#announcements .countdown img {
+		width: 200px;
+	}
+	#announcements .countdown-desc {
+		position: static;
+		width: 200px;
+		margin: -10px 0 0 20px;
+	}
+	#announcements .workshop img {
+		width: 225px;
+		top: -25vh;
+		left: 0;
+	}
+	#announcements .workshop-desc {
+		position: static;
+		height: 338px;
+		padding: 5px 10px;
+		margin: 31px 0 0 0;
+	}
+	#announcements .workshop-desc h1 {
+		font-size: 120%;
+	}
+	#announcements .workshop-desc p {
+		font-size: 100%;
+	}
+	/* REGISTRATION*/
+	body > #registration {
+		height: 200vh;
+		background-image: linear-gradient(110.75deg, #ffcc33 50%, #fff176 50%);
+	}
+}
+
+/* Portrait Tablets */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	/* HOME */
+	#home-header > .navbar > .navbar-inner > .nav > li,
+	#home-header > .navbar > .navbar-inner > .nav > a {
+		font-size: 100%;
+		margin: 0 -5px 0 0;
+	}
+	#home-header .home-header-contents {
+		padding-top: 10vh;
+	}
+	#home-header .home-header-contents img {
+		max-width: 300px;
+	}
+	#home-header .row .home-header-contents h1 {
+		font-size: 250%;
+	}
+	#home-header .register-now {
+		margin-top: -500px;	
+	}
+	#home-header .row .register-now h3{
+		font-size: 150%;
+	}
+	#home-header .row .register-now a {
+		font-size: 150%;
+	}
+	#home-header .row .arrow {
+		padding-top: 40vh;
+	}
+	#home-header .row .arrow img {
+		max-width: 40px;
+	}
+
+	/* TOPICS */
+	body > #topics {
+		height: 350vh;
+		background-image: linear-gradient(70.75deg, #013A6B 50%, #004E95 50%);
+	}
+	.topics-list {
+		position: relative;
+		margin: auto;
+	}
+	#topics .topics-list img {
+		width: 200px;
+	}
+	#topics .topics-list > .overlay {
+		width: 200px;
+		height: 0;
+		margin-left: 25px;
+	}
+	#topics .topics-list:hover > .overlay {
+		height: 200px;
+	}
+	#topics .topics-list > .topics-desc p {
+		font-size: 115%;
+		width: 200px;
+		left: 10%;
+		top: 20%;
+	}
+	.topics-list:hover > .topics-desc p {
+		height: 200px;
+	}
+
+	/* OBJECTIVES*/
+	body > #objectives {
+		background-image: linear-gradient(147deg, #6b0101 50%, #950000 50%);
+	}
+
+	/* ANNOUNCEMENTS*/
+	body > #announcements {
+		height: 275vh;
+		background-image: linear-gradient(66deg, #156b01 50%, #0d9500 50%);
+	}
+	#announcements .countdown img {
+		width: 200px;
+	}
+	#announcements .countdown-desc {
+		position: static;
+		width: 200px;
+		margin: auto;
+		margin-top: -10px;
+	}
+	#announcements .workshop img {
+		width: 225px;
+		top: -25vh;
+		left: 20%;
+	}
+	#announcements .workshop-desc {
+		position: static;
+		height: 338px;
+		padding: 5px 10px;
+		margin: 31px 70px 0 0;
+	}
+	#announcements .workshop-desc h1 {
+		font-size: 150%;
+	}
+	#announcements .workshop-desc p {
+		font-size: 110%;
+	}
+	/* REGISTRATION*/
+	body > #registration {
+		height: 200vh;
+		background-image: linear-gradient(121.5deg, #ffcc33 50%, #fff176 50%);
+	}
+}
+
+/*Landscape tablets*/
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	/* HOME */
+	#home-header > .navbar > .navbar-inner > .nav > li,
+	#home-header > .navbar > .navbar-inner > .nav > a {
+		font-size: 100%;
+		margin: 0 -10px 0 0;
+	}
+	#home-header .home-header-contents img {
+		max-width: 300px;
+	}
+	#home-header .row .home-header-contents h1 {
+		font-size: 250%;
+	}
+	#home-header .row .register-now {
+		padding-top: 25vh;
+	}
+	#home-header .row .register-now h3{
+		font-size: 200%;
+	}
+	#home-header .row .arrow {
+		padding-top: 40vh;
+	}
+	#home-header .row .arrow img {
+		max-width: 40px;
+	}
+
+	/* TOPICS */
+	body > #topics {
+		height: 200vh;
+		background-image: linear-gradient(52deg, #013A6B 50%, #004E95 50%);
+	}
+	#topics .topics-list {
+		position: relative;
+		margin-left: -50px;
+	}
+	#topics .topics-list img {
+		width: 175px;
+	}
+	#topics .topics-list > .overlay {
+		width: 175px;
+		height: 0;
+		margin-left: 38px;
+	}
+	#topics .topics-list:hover > .overlay {
+		height: 175px;
+	}
+	#topics .topics-list > .topics-desc p {
+		font-size: 115%;
+		width: 175px;
+		left: 15%;
+		top: 20%;
+	}
+	.topics-list:hover > .topics-desc p {
+		height: 175px;
+	}
+	/* OBJECTIVES*/
+	body > #objectives {
+		background-image: linear-gradient(153deg, #6b0101 50%, #950000 50%);
+	}
+
+	/* ANNOUNCEMENTS*/
+	body > #announcements {
+		height: 150vh;
+		background-image: linear-gradient(43.5deg, #156b01 50%, #0d9500 50%);
+	}
+	#announcements .countdown img {
+		width: 175px;
+	}
+	#announcements .countdown-desc {
+		position: static;
+		width: 175px;
+		margin: auto;
+		margin-top: -10px;
+	}
+	#announcements .countdown-desc p{
+		font-size: 100%;
+	}
+	#announcements .workshop img {
+		width: 200px;
+		top: -25vh;
+		left: -5%;
+	}
+	#announcements .workshop-desc {
+		position: static;
+		height: 301px;
+		padding: 0 5px;
+		margin: 30px -5px 0 0 ;
+	}
+	#announcements .workshop-desc h1 {
+		font-size: 100%;
+		margin-bottom: 5px;
+	}
+	#announcements .workshop-desc p {
+		font-size: 90%;
+	}
+	/* REGISTRATION*/
+	body > #registration {
+		height: 125vh;
+		background-image: linear-gradient(142deg, #ffcc33 50%, #fff176 50%);
+	}
+	#registration .name-form {
+		margin: 0 -50px;
+	}
+	#registration .address-form{
+		margin: 0 -100px;
+	}
+	#registration .form-group label {
+		font-size: 90%;
+	}
+}
+
+/* Default */
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+	/* HOME */
+	#home-header > .navbar > .navbar-inner > .nav > li,
+	#home-header > .navbar > .navbar-inner > .nav > a {
+		font-size: 100%;
+		margin: 0 -10px 0 0;
+	}
+	#home-header .home-header-contents img {
+		max-width: 300px;
+	}
+	#home-header .row .home-header-contents h1 {
+		font-size: 250%;
+	}
+	#home-header .row .register-now {
+		padding-top: 25vh;
+	}
+	#home-header .row .register-now h3{
+		font-size: 200%;
+	}
+	#home-header .row .arrow img {
+		max-width: 40px;
+	}
+
+	/* TOPICS */
+	body > #topics {
+		height: 200vh;
+		background-image: linear-gradient(51.75deg, #013A6B 50%, #004E95 50%);
+	}
+	#topics .topics-list {
+		position: relative;
+		margin-left: -50px;
+	}
+	#topics .topics-list > img {
+		width: 180px;
+	}
+	#topics .topics-list > .overlay {
+		width: 180px;
+		height: 0;
+		margin-left: 35px;
+	}
+	#topics .topics-list:hover > .overlay {
+		height: 180px;
+	}
+	#topics .topics-list > .topics-desc p {
+		font-size: 115%;
+		width: 180px;
+		left: 15%;
+		top: 20%;
+	}
+	.topics-list:hover > .topics-desc p {
+		height: 180px;
+	}
+
+	/* OBJECTIVES*/
+	body > #objectives {
+		background-image: linear-gradient(153.25deg, #6b0101 50%, #950000 50%);
+	}
+	#objectives .objectives-contents p {
+		font-size: 130%;
+	}
+
+	/* ANNOUNCEMENTS*/
+	body > #announcements {
+		height: 150vh;
+		background-image: linear-gradient(43.5deg, #156b01 50%, #0d9500 50%);
+	}
+	#announcements .countdown img {
+		width: 175px;
+	}
+	#announcements .countdown-desc {
+		position: static;
+		width: 175px;
+		margin: auto;
+		margin-top: -10px;
+	}
+	#announcements .countdown-desc p{
+		font-size: 100%;
+	}
+	#announcements .workshop img {
+		width: 200px;
+		top: -25vh;
+		left: -5%;
+	}
+	#announcements .workshop-desc {
+		position: static;
+		height: 301px;
+		padding: 0 5px;
+		margin: 30px -5px 0 0 ;
+	}
+	#announcements .workshop-desc h1 {
+		font-size: 100%;
+		margin-bottom: 5px;
+	}
+	#announcements .workshop-desc p {
+		font-size: 90%;
+	}
+
+	/* REGISTRATION*/
+	body > #registration {
+		height: 110vh;
+		background-image: linear-gradient(145.25deg, #ffcc33 50%, #fff176 50%);
+	}
+	#registration .name-form {
+		margin: 0 -50px;
+	}
+	#registration .address-form{
+		margin: 0 -150px;
+	}
+}
